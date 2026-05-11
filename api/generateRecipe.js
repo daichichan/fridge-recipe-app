@@ -32,7 +32,7 @@ console.log('API Key:', process.env.ANTHROPIC_API_KEY);
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-opus-4-20250514',
+        model: 'claude-3-5-sonnet-20241022',
         max_tokens: 1024,
         messages: [
           {
