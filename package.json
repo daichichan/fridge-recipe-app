@@ -1,0 +1,23 @@
+{
+  "name": "fridge-recipe-app",
+  "version": "1.0.0",
+  "description": "冷蔵庫ちゃん - AI レシピアシスタント",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "recipe",
+    "ai",
+    "cooking",
+    "fridge",
+    "assistant"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/fridge-recipe-app.git"
+  }
+}
