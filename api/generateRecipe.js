@@ -1,4 +1,6 @@
 export default async function handler(req, res) {
+  console.log('API Key exists:', !!process.env.ANTHROPIC_API_KEY);
+console.log('API Key:', process.env.ANTHROPIC_API_KEY);
   console.log('API called');
   console.log('API Key exists:', !!process.env.ANTHROPIC_API_KEY);
   
